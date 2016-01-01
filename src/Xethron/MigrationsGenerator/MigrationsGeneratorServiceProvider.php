@@ -41,7 +41,7 @@ class MigrationsGeneratorServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package( 'xethron/migration-from-table' );
+		// $this->package( 'xethron/migration-from-table' );
 	}
 
 	/**
