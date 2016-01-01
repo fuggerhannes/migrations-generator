@@ -15,8 +15,8 @@ Thanks to @jamisonvalenta, you can now generate Migrations in Laravel 5!
 For Laravel 5 installations, add the specified packages to your `composer.json` 
 ```json
 "require-dev": {
-    "xethron/migrations-generator": "dev-l5",
-    "way/generators": "dev-feature/laravel-five-stable",
+    "fuggerhannes/migrations-generator": "dev-master",
+    "way/generators": "dev-feature/laravel-five-stable"
 }
 ```
 You also need to point to the fork of the `way/generators` repo:
@@ -25,6 +25,10 @@ You also need to point to the fork of the `way/generators` repo:
     {
         "type": "git",
         "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
+    },
+    {
+        "type": "git",
+        "url": "git@github.com:fuggerhannes/migrations-generator.git"
     }
 ]
 ```
